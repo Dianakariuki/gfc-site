@@ -1,0 +1,114 @@
+.main{
+	background-image:url('../images/sunrise.jpg');
+	background-position:center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#555;
+	/* font-family: 'Courier New', Courier, monospace; */
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+#showcase{
+	background-image:linear-gradient(rgba(63, 34, 34, 0.5),rgba(0,0,0,0.7)),url('../images/hens.jpg');
+	background-position:center ;
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-text{
+	color: #fff;
+}
+
+.card{
+	margin-bottom: 5px;
+}
+.container{
+	
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#main-header{
+	background-color:green;
+	color:#fff;
+}
+
+#navbar{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:greenyellow;
+	text-decoration: none;
+	font-size:25px;
+	padding-right:15px;
+	font-weight: bolder;
+
+}
+
+#showcase h2{
+	color:#fff;
+	font-size:40px;
+	line-height: 1.6em;
+}
+
+#main{
+	color: blanchedalmond;
+	font-weight:600;
+    float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background: #333;
+	color:#fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		background-color: rgba(163, 159, 159, 0);
+		width:100%;
+		float:none;
+	}
+}
+.navbar-brand{
+color: chartreuse;	
+text-shadow:2px 2px 5px yellow;
+font-style: italic;
+font-weight: bold;
+}
